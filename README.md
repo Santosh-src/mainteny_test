@@ -9,4 +9,5 @@ How to trigger AUtomated tests ?
 Since both tests are developed using Cypress
 
 'npx cypress open' -> Head Mode
+
 'npx cypress run'  -> HeadLess Mode

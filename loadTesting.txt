@@ -1,0 +1,13 @@
+Objective:
+Load testing can be done using multiple tools like JMeter, Gatling, apache benchmark etc.. Here i have chosen 'AB'. 
+
+Approach:
+Setup Isolated environment for testing and perform API under test with multiple different loads to estimate the optimal load that server can withstand.
+What that metrics we can improve the infra capabilities & also find out any application issue like memory leak etc..
+
+Example command to perform the tests:
+n= number of requests
+c= concurrency of requests
+
+ab -n 6 -c 2 "<URL to be tested>"
+

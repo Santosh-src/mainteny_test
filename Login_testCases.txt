@@ -1,0 +1,21 @@
+Verify if a user will be able to login with a valid username and valid password.
+Verify if a user cannot login with a valid username and an invalid password.
+Verify the login page for both, when the field is blank and Submit button is disabled.
+Verify the ‘Forgot Password’ functionality.
+Verify the messages for invalid login.
+Verify if the data in password field type is password.
+Verify if a user is able to login with a new password only after he/she has changed the password.
+Verify if the login page allows to log in simultaneously with different credentials in a different browser.
+Verify if the ‘Enter’ key of the keyboard is working correctly on the login page.
+Verify the time taken to log in with a valid username and password
+Verify the login page and all its controls in different browsers
+Verify Submit button enables only after both username & password entred
+Verify both Try Demo buttons, whihc loads dashboard with demo user
+
+Verify if a user cannot enter the characters more than the specified range in each field (Username and Password)
+Verify the login page by pressing ‘Back button’ of the browser. It should not allow you to enter into the system once you log out
+Verify the timeout functionality of the login session.	Positive
+Verify if a user should not be allowed to log in with different credentials from the same browser at the same time.	Negative
+Verify if a user should be able to login with the same credentials in different browsers at the same time.	Positive
+Verify the Login page against SQL injection attack.	Negative
+Verify the implementation of SSL certificate.	Positive

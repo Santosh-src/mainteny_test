@@ -1,0 +1,114 @@
+SANAPPAN-M-X0K0:mainteny_test sanappan$ npx cypress run
+
+====================================================================================================
+
+  (Run Starting)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Cypress:        9.4.1                                                                          │
+  │ Browser:        Electron 94 (headless)                                                         │
+  │ Node Version:   v16.10.0 (/usr/local/Cellar/node/16.10.0_1/bin/node)                           │
+  │ Specs:          2 found (loginTest.js, serviceOrders_API.js)                                   │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  loginTest.js                                                                    (1 of 2)
+Browserslist: caniuse-lite is outdated. Please run:
+npx browserslist@latest --update-db
+
+Why you should do it regularly:
+https://github.com/browserslist/browserslist#browsers-data-updating
+
+
+  Login test Suite
+    ✓ Test Page Load & Visiblity of elements  (3139ms)
+    ✓ Test Demo - functionality I (2128ms)
+    ✓ Test Demo - functionality II (1546ms)
+    ✓ Test -ve Login & error Validation  (1507ms)
+    ✓ Test Sucessful Login  (2210ms)
+    ✓ Forgot Password Page I (1182ms)
+    ✓ Forgot Password Page II (1669ms)
+
+
+  7 passing (13s)
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        7                                                                                │
+  │ Passing:      7                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        true                                                                             │
+  │ Duration:     13 seconds                                                                       │
+  │ Spec Ran:     loginTest.js                                                                     │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+  (Video)
+
+  -  Started processing:  Compressing to 32 CRF                                                     
+  -  Finished processing: /Users/sanappan/Documents/mainteny_test/cypress/videos/logi     (1 second)
+                          nTest.js.mp4                                                              
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  serviceOrders_API.js                                                            (2 of 2)
+
+
+  ServiceOrder api testing
+    ✓ Test ServiceOrder API (1230ms)
+    ✓ Test ServiceOrder API - pageSize = 0 (338ms)
+    ✓ Test ServiceOrder API - empty order (386ms)
+    ✓ Test ServiceOrder API - empty orderBy (187ms)
+    ✓ Test ServiceOrder API - -ve pageIndex (334ms)
+    ✓ Test ServiceOrder API - pagesize > 500 (329ms)
+    ✓ Test ServiceOrder API - empty ID (324ms)
+    ✓ Test ServiceOrder API - Invalid ID (189ms)
+
+
+  8 passing (3s)
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        8                                                                                │
+  │ Passing:      8                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        true                                                                             │
+  │ Duration:     3 seconds                                                                        │
+  │ Spec Ran:     serviceOrders_API.js                                                             │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+  (Video)
+
+  -  Started processing:  Compressing to 32 CRF                                                     
+  -  Finished processing: /Users/sanappan/Documents/mainteny_test/cypress/videos/serv    (0 seconds)
+                          iceOrders_API.js.mp4                                                      
+
+
+====================================================================================================
+
+  (Run Finished)
+
+
+       Spec                                              Tests  Passing  Failing  Pending  Skipped  
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ ✔  loginTest.js                             00:13        7        7        -        -        - │
+  ├────────────────────────────────────────────────────────────────────────────────────────────────┤
+  │ ✔  serviceOrders_API.js                     00:03        8        8        -        -        - │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+    ✔  All specs passed!                        00:16       15       15        -        -        -  
+
+SANAPPAN-M-X0K0:mainteny_test sanappan$ 

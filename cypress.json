@@ -1,0 +1,8 @@
+{
+    "baseUrl": "https://staging.mainteny.com/auth/login",
+    "watchForFileChanges": false,
+    "env": {
+        "userLogin": "engineering@mainteny.com",
+        "Password": "Mainteny@2021"
+    }
+}
